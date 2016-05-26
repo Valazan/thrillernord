@@ -117,23 +117,31 @@ html, body {
 	width:100%;
 	min-height:300px;
 	position:relative;
-	background:#F5ED46;
+	background:white;
 	margin-top:-16px;
 	font-size:125%;
 	margin-bottom:-20px;
 	}
 	
+	#slides {
+	width:90%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+	}
+	
 #end	{
 		height:30px;
 		margin-top:-16px;
-		background-color:#999900;
+		background-color:#6699CC;
 		display:block;
 		}
 #footer {
 	width:100%;
 	min-height:100px;
 	position:relative;
-	background:#999900;
+	background:#6699CC;
 	}
 #footer a {
 	color:black;

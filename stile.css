@@ -101,15 +101,22 @@ body {
 	}
 #informations {
 	width:100%;
-	min-height:600px;
+	min-height:200px;
 	position:relative;
-	background:#F5ED46;
+	background:white;
+	}
+#slides {
+	width:80%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	
 	}
 #footer {
 	width:100%;
 	min-height:100px;
 	position:relative;
-	background:#999900;
+	background:#6699CC;
 	}
 #footer a {
 	color:black;
