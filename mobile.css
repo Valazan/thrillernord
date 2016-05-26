@@ -3,6 +3,12 @@ html, body {
 	padding:0px;
 }
 
+body {
+	background:#edede3;
+	background-attachment:fixed;
+	background-size:100%;
+	}
+
 
 #header {
 		width:100%;
@@ -99,14 +105,28 @@ html, body {
 	background:blue;
 	}
 #sliderpagina {
-	background:white;
-	margin-left:225px;
-	width:750px;
-	font-family:Inconsolata;
-	min-height:800px;
+    background:white;
+	font-family:EB Garamond;
+	font-size:110%;
+	min-height:300px;
 	position:center;
-	text-align:left;
+	padding:10%;
+	}
 	
+@media screen and (max-width: 480px) {
+	#sliderpagina {
+    background:white;
+	font-family:EB Garamond;
+	font-size:105%;
+	min-height:300px;
+	position:center;
+	padding:6%;
+	}
+	}
+
+#sliderpagina img {
+	width:100%;
+	height:100%;
 	}
 #testo {
 	right:-200px;
@@ -120,7 +140,8 @@ html, body {
 	background:white;
 	margin-top:-16px;
 	font-size:125%;
-	margin-bottom:-20px;
+	margin-bottom:20px;
+	margin-top:20px;
 	}
 	
 	#slides {
@@ -285,13 +306,40 @@ div#container
 					width:80%;
 					margin:auto;
 					position:relative;
-					margin-top:40px;
+					padding-top:25px;
 					z-index:20;
 					}
 
-#jssor_1 { position: relative; margin: 0 auto; top: 0px; left: 0px; width: 100*12%; height: 200px; overflow: hidden; visibility: hidden; }
+#jssor_1 { position: relative; margin: 0 auto; top: 0px; left: 0px; width: 100%*12%; height: 200px; overflow: hidden; visibility: hidden; }
 
+#buyonline {
+    background-color: #F5ED46;
+    padding:5px;
+	margin:40px auto;
+	display:block;
+}
 
+#buyonline img{
+	border:1px solid #fff;
+	float:left;
+	margin-right:20px;
+	width:25%;
+	height:auto;
+}
+
+#buyonline p{
+	color:black;
+	font-weight:600;
+	font-size:20px;
+	font-family: "Open Sans",sans-serif;
+	line-height:42px;
+}
+
+#buyonline a{
+	color:black;
+	text-decoration:none;
+}
+	
 
 		
 

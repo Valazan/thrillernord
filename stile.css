@@ -4,7 +4,7 @@ html,body {
 	}
 	
 body {
-	background:#a7e6e0;
+	background:#edede3;
 	background-attachment:fixed;
 	background-size:100%;
 	}
@@ -100,19 +100,22 @@ body {
 	position:relative;
 	}
 #informations {
-	width:100%;
+	width:1200px;
 	min-height:200px;
 	position:relative;
 	background:white;
+	margin:auto;
+	margin-bottom:20px;
+	
 	}
 #slides {
 	width:80%;
 	margin:auto;
 	padding-top:20px;
-	padding-bottom:20px;
-	
-	
+	padding-bottom:20px;	
 	}
+	
+	
 #footer {
 	width:100%;
 	min-height:100px;
@@ -144,6 +147,8 @@ body {
 		height:30px;
 		background-color:#6699CC;
 		margin-top:-16px;
+		width:1200px;
+		margin:auto;
 		}
 		
 #griglia li  p {
