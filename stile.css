@@ -4,7 +4,7 @@ html,body {
 	}
 	
 body {
-	background-image:url("img/dark.jpg");
+	background:#a7e6e0;
 	background-attachment:fixed;
 	background-size:100%;
 	}
@@ -110,6 +110,7 @@ body {
 	margin:auto;
 	padding-top:20px;
 	padding-bottom:20px;
+	
 	
 	}
 #footer {
