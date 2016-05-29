@@ -177,43 +177,50 @@ Per Erlendur, non vi è alcun rifugio nel passato, ma, prova a trovare in sé st
 	</section>
 	</div>
 	
-	<div id="searchbox">
-<gcse:searchbox-only></gcse:searchbox-only>
 	</div>
-	<section id="end">
-	<ul>
-	</ul>
+	</div>
 	</section>
+
 	<section id="informations">
-						<br>
-                        <br>
-                        <icon><a id="rubriche"></a> 
-	</icon>
-    <section id="rubrica">
-                        
-
-          
-    	<ul>
-                        <li><a> Ricette dal Nord</a></li><li><a href="ricette.html"><img src="img/ricette.png"></a></li>
-
-                    </ul>
-            	<ul>
-                        <li><a>angolo lettore</a></li><li><a href="shopping.html"><img src="img/shoppingautore.jpg"></a></li1>
-                 
-                    </ul>
-                                	<ul>
-                        <li><a>Luoghi e Arte</a></li><li><a href="arte.html"><img src="img/arte.jpg"></a></li1>
-                    </ul>
-                             	<ul>
-                        <li><a>Tempo Libero</a></li><li><a href="tempo.html"><img src="img/tempo.jpg"></a></li1>
-                        
-                    </ul>
-
-	</section>
+	<br>
+    <div id="slides">
+      <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+      <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+      <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+      <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+    </div>
+    </section>
 	
 	
 	<footer id="footer"><br><a>Copyright -2016</a><br><a>ThrillerNord...viaggiare dentro il libro. All rights reserved</a>
 	<div id="loghi">in collaborazione con : <a href ="http://www.giallosvezia.it/"><img src="img/giallosvezia.png"></a><a href="http://www.marsilioeditori.it/"><img src="img/marsilio.png"></a>
 	<a href="http://www.longanesi.it/"><img src="img/longanesi.png"></a>	</div>
+
+	</footer>
+	
+	  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
 	
 </body>
