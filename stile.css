@@ -122,6 +122,7 @@ body {
 	min-height:100px;
 	position:relative;
 	background:#6699CC;
+	position:bottom;
 	}
 #footer a {
 	color:black;
