@@ -107,7 +107,7 @@ body {
 #sliderpagina {
     background:white;
 	font-family:EB Garamond;
-	font-size:110%;
+	font-size:100%;
 	min-height:300px;
 	position:center;
 	padding:10%;
@@ -117,7 +117,7 @@ body {
 	#sliderpagina {
     background:white;
 	font-family:EB Garamond;
-	font-size:105%;
+	font-size:80%;
 	min-height:300px;
 	position:center;
 	padding:6%;
@@ -312,8 +312,9 @@ div#container
 
 #jssor_1 { position: relative; margin: 0 auto; top: 0px; left: 0px; width: 100%*12%; height: 200px; overflow: hidden; visibility: hidden; }
 
+					
 #buyonline {
-    background-color: #F5ED46;
+    background-color: #6699CC;
     padding:5px;
 	margin:40px auto;
 	display:block;
@@ -339,7 +340,6 @@ div#container
 	color:black;
 	text-decoration:none;
 }
-	
 
 		
 

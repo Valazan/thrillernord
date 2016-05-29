@@ -93,6 +93,7 @@ body {
 	min-height:800px;
 	position:center;
 	text-align:left;
+	margin-bottom:20px;
 	}
 #testo {
 	right:-200px;
@@ -258,6 +259,31 @@ div#container
 		width:100%;
 		height:auto;
 		}
+#buyonline {
+    background-color: #6699CC;
+    padding:5px;
+	margin:40px auto;
+	display:block;
+}
+
+#buyonline img{
+	border:1px solid #fff;
+	float:left;
+	margin-right:20px;
+}
+
+#buyonline p{
+	color:black;
+	font-weight:600;
+	font-size:20px;
+	font-family: "Open Sans",sans-serif;
+	line-height:42px;
+}
+
+#buyonline a{
+	color:black;
+	text-decoration:none;
+}
 	
 		
 
