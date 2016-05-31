@@ -14,7 +14,7 @@ body {
 		width:100%;
 	height:500px;
 	position:relative;
-	background-image:url(img/thrillernordsfondo.jpg);
+	background-image:url(img/thrillernordSfondo.jpg);
     background-size: 100% 100%;
     margin-bottom:-16px;
 	z-index:1
@@ -150,6 +150,10 @@ body {
 	padding-top:20px;
 	padding-bottom:20px;
 	
+	}
+	#slides a img {
+	width:100%;
+	height:auto;
 	}
 	
 #end	{
