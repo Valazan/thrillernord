@@ -11,7 +11,7 @@ body {
 
 
 #header {
-		width:100%;
+	width:100%;
 	height:500px;
 	position:relative;
 	background-image:url(img/thrillernordSfondo.jpg);
@@ -51,6 +51,20 @@ body {
     font-family:oswald;
     font-size:100%;
     display:inline-block;
+}
+@media screen and (max-width: 480px) {
+		#nav ul {
+    	position:relative;
+    	margin:0;
+    	padding:0;
+    	width:100%;
+    	list-style:none;
+    	text-transform:uppercase;
+    	font-family:oswald;
+    	font-size:100%;
+    	display:block;
+    	
+	}
 }
 #nav ul li{float:left}
 #nav ul li a{color:#322a2b;padding:5px 10px;text-decoration:none;}
@@ -117,7 +131,7 @@ body {
 	#sliderpagina {
     background:white;
 	font-family:EB Garamond;
-	font-size:80%;
+	font-size:100%;
 	min-height:300px;
 	position:center;
 	padding:6%;
@@ -315,7 +329,7 @@ div#container
 					z-index:20;
 					}
 
-#jssor_1 { position: relative; margin: 0 auto; top: 0px; left: 0px; width: 100%*12%; height: 200px; overflow: hidden; visibility: hidden; }
+#jssor_1 { position: relative; margin: 0 auto; top: 0px; left: 0px; width: 20*20%; height: 200px; overflow: hidden; visibility: hidden; }
 
 					
 #buyonline {
