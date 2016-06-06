@@ -90,7 +90,7 @@ Scandinavia.">
                 $Steps: 1
               },
             };
-            
+        
             var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
             
             //responsive code begin
@@ -100,9 +100,10 @@ Scandinavia.">
                 if (refSize) {
                     refSize = Math.min(refSize, 1200);
                     jssor_1_slider.$ScaleWidth(refSize);
+
                 }
                 else {
-                    window.setTimeout(ScaleSlider, 30);
+                    window.setTimeout(ScaleSlider, 1);
                 }
             }
             ScaleSlider();
@@ -110,6 +111,8 @@ Scandinavia.">
             $Jssor$.$AddEvent(window, "resize", ScaleSlider);
             $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
             //responsive code end
+            
+
         };
     </script>
 
