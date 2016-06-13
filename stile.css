@@ -21,9 +21,8 @@ body {
 
 	
 #logo { 
-	background-image:url(img/ThrillernordLogo.png);
-	 	position:absolute;
-
+	background-image:url(img/ThrillernordLogo.png);	 	
+	position:absolute;
 	display:block;
 	height:220px;
 	width:220px;
@@ -142,7 +141,7 @@ body {
 		float:right;
 		display:inline-block;
 		position:relative;
-		padding:40px;
+		padding:15px;
 		padding-bottom:0px;
 		padding-top:0px;
 		top:-10px;
