@@ -210,7 +210,7 @@ div#container
     display:inline-block;
 }
 #nav ul li{float:left}
-#nav ul li a{color:#322a2b;padding:15px 30px;text-decoration:none;}
+#nav ul li a{color:#322a2b;padding:15px 20px;text-decoration:none;}
 #nav ul li a.active, #nav ul li a:hover{
 	color:white;
 	}
@@ -220,10 +220,40 @@ div#container
             left:-220px;
 			position:relative;
 			display:block; 
-			width:20px; 
+			width:37px; 
 			height: 37px; 
 			z-index:12;
 	        background:url(img/Facebook.png);
+	        background-size:100%;
+
+
+}
+#icona2 {
+			float:right;
+            bottom:-12px;
+            left:-240px;
+			position:relative;
+			display:block; 
+			width:37px; 
+			height: 37px; 
+			z-index:12;
+	        background:url(img/twitter.png);
+	        background-size:100%;
+
+
+}
+#icona3 {
+			float:right;
+            bottom:-12px;
+            left:-260px;
+			position:relative;
+			display:block; 
+			width:37px; 
+			height: 37px; 
+			z-index:12;
+	        background:url(img/instagram.png);
+	        background-size:100%;
+
 
 }
 #searchbox {
