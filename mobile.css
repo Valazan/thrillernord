@@ -252,8 +252,9 @@ div#container
 #icona {
 			position:relative;
 			top:5px;
-			display:inline-block; 
-			margin:auto;
+			display:block; 
+			float:right;
+			margin-right:80px;
 			width:37px; 
 			height: 37px; 
 			z-index:12;
@@ -264,7 +265,9 @@ div#container
 #icona2 {
 			position:relative;
 			top:5px;
-			display:inline-block; 
+			display:block; 
+			float:left;
+			margin-left:80px;
 			width:37px; 
 			height: 37px; 
 			z-index:12;
@@ -276,7 +279,8 @@ div#container
 #icona3 {
 			position:relative;
 			top:5px;
-			display:inline-block; 
+			display:block; 
+			margin:auto;
 			width:37px; 
 			height: 37px; 
 			z-index:12;
