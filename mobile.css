@@ -44,7 +44,7 @@ body {
 #nav ul {
     position:relative;
     margin:0;
-    padding:15px 0px;
+    padding:10px 0px;
     width:100%;
     list-style:none;
     text-transform:uppercase;
@@ -54,7 +54,7 @@ body {
 }
 
 #nav ul li{float:left}
-#nav ul li a{color:#322a2b;padding:5px 10px;text-decoration:none;}
+#nav ul li a{color:#322a2b;padding:3px 5px;text-decoration:none;}
 
 #carousel {
 
