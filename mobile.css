@@ -52,20 +52,7 @@ body {
     font-size:100%;
     display:inline-block;
 }
-@media screen and (max-width: 480px) {
-		#nav ul {
-    	position:relative;
-    	margin:0;
-    	padding:5px 0px;
-    	width:100%;
-    	list-style:none;
-    	text-transform:uppercase;
-    	font-family:oswald;
-    	font-size:100%;
-    	display:block;
-    	
-	}
-}
+
 #nav ul li{float:left}
 #nav ul li a{color:#322a2b;padding:5px 10px;text-decoration:none;}
 
@@ -262,44 +249,41 @@ div#container
 	background:white;
 	text-align: left
 }
-
 #icona {
-			float:right;
-			position:absolute;
-			display:none; 
-			width:20px; 
-			height: 37px; 
-			z-index:12;
-	        background:url(img/Facebook.png);
-
-}
-
-@media screen and (max-width: 480px) {
-		#icona {
-			float:right;
-            bottom:-213px;
-            left:-47%;
 			position:relative;
-			display:none; 
-			width:20px; 
+			top:5px;
+			display:inline-block; 
+			margin:auto;
+			width:37px; 
 			height: 37px; 
 			z-index:12;
 	        background:url(img/Facebook.png);
+	        background-size:100%;
 
 }
-
-	        }
-			
 #icona2 {
-			float:right;
-            bottom:0px;
-            left:-50px;
 			position:relative;
-			display:none; 
-			width:30px; 
-			height: 30px; 
+			top:5px;
+			display:inline-block; 
+			width:37px; 
+			height: 37px; 
 			z-index:12;
-	        background:url(img/zoom.png);
+	        background:url(img/twitter.png);
+	        background-size:100%;
+
+
+}
+#icona3 {
+			position:relative;
+			top:5px;
+			display:inline-block; 
+			width:37px; 
+			height: 37px; 
+			z-index:12;
+	        background:url(img/instagram.png);
+	        background-size:100%;
+
+
 }
 #informations ul	 {
 				text-align:center;
