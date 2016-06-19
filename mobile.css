@@ -50,10 +50,10 @@ body {
     text-transform:uppercase;
     font-family:oswald;
     font-size:100%;
-    display:inline-block;
+    display:block;
 }
 
-#nav ul li{float:left}
+#nav ul li{display:inline;}
 #nav ul li a{color:#322a2b;padding:3px 5px;text-decoration:none;}
 
 #carousel {
@@ -251,10 +251,11 @@ div#container
 }
 #icona {
 			position:relative;
-			top:5px;
+			margin-top:3px;
+			margin-bottom:3px;
+			margin-right:12px;
 			display:block; 
 			float:right;
-			margin-right:30%;
 			width:37px; 
 			height: 37px; 
 			z-index:12;
@@ -264,10 +265,11 @@ div#container
 }
 #icona2 {
 			position:relative;
-			top:5px;
+			margin-top:3px;
+			margin-bottom:3px;
+			margin-right:12px;
 			display:block; 
-			float:left;
-			margin-left:30%;
+			float:right;
 			width:37px; 
 			height: 37px; 
 			z-index:12;
@@ -278,9 +280,11 @@ div#container
 }
 #icona3 {
 			position:relative;
-			top:5px;
+			margin-top:3px;
+			margin-bottom:3px;
+			margin-right:12px;
 			display:block; 
-			margin:auto;
+			float:right;
 			width:37px; 
 			height: 37px; 
 			z-index:12;
