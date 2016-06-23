@@ -109,17 +109,17 @@ body {
 #sliderpagina {
     background:white;
 	font-family:EB Garamond;
-	font-size:100%;
+	font-size:130%;
 	min-height:300px;
 	position:center;
-	padding:10%;
+	padding:6%;
 	}
 	
 @media screen and (max-width: 480px) {
 	#sliderpagina {
     background:white;
 	font-family:EB Garamond;
-	font-size:100%;
+	font-size:120%;
 	min-height:300px;
 	position:center;
 	padding:6%;
