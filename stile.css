@@ -323,7 +323,35 @@ div#container
 	text-decoration:none;
 }
 	
-		
+/* Navigazione Blogger */
+.navigation a, .navigation span, .navigation a {
+text-decoration: none;
+color: #272727;
+background-color: #fff;
+padding: 5px 10px;
+border: 1px solid lightGrey;
+font-weight: bold;
+font-size: 12px;
+vertical-align: middle;
+margin: 2px 2px;
+}
+.navigation a:hover, .pagenavi a:hover {
+border-color: #C6C6C6;
+}
+#blog-pager-older-link, #blog-pager-newer-link {
+float: none;
+}
+.navigation .current {
+border-color: #C6C6C6;
+background-color: #6699CC;
+background-image: none;
+color:#fff;
+}
+.navigation a:active {
+border-color: #C6C6C6;
+background-color: #6699CC;
+background-image: none;
+}		
 
 		
 
