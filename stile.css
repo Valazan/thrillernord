@@ -45,6 +45,9 @@ body {
 	border: 5px solid #333333;
 
 	}
+#newsTab {
+	position:absolute; margin-top:50px; margin-left:100px;
+	}
 	
 #carousel {
 	display:block;
