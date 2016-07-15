@@ -12,7 +12,7 @@ body {
 
 #header {
 	width:100%;
-	height:650px;
+	height:500px;
 	position:relative;
 	background-image:url(img/thrillernordSfondo.jpg);
     background-size: 100% 100%;
@@ -69,7 +69,7 @@ body {
 	display:block;
 	position:absolute;
 	width:100%;
-	height:30%;
+	height:38%;
 	background-image:url(img/carouselSfondo.png);
 	bottom:-0px;
 	}
