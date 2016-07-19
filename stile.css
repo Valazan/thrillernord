@@ -213,7 +213,7 @@ div#container
     display:inline-block;
 }
 #nav ul li{float:left}
-#nav ul li a{color:#322a2b;padding:15px 20px;text-decoration:none;}
+#nav ul li a{color:#322a2b;padding:15px 13px;text-decoration:none;}
 #nav ul li a.active, #nav ul li a:hover{
 	color:white;
 	}
