@@ -1,0 +1,305 @@
+html,body {
+	margin:0px;
+	padding:0px;
+	}
+	
+body {
+	background:#edede3;
+	background-attachment:fixed;
+	background-size:100%;
+	}
+
+#header {
+	width:100%;
+	height:600px;
+	position:relative;
+	background-image:url(img/thrillernordSfondo.jpg);
+    background-size: 100% 100%;
+    margin-bottom:-16px;
+	z-index:1
+	}
+
+	
+#logo { 
+	background-image:url(img/ThrillernordLogo.png);
+	 	position:absolute;
+
+	display:block;
+	height:220px;
+	width:220px;
+	right:-50px;
+	top:-80px;
+ 	background-size: 100% auto;
+
+
+	}
+#header nav {
+	width:1200px;
+	min-height:65px;
+	background:#6699CC;
+	background-repeat: repeat-x;
+	position: relative;
+	z-index:10;
+	margin:0 auto;
+	margin-bottom:0px;
+	bottom:-200px;
+	border: 5px solid #333333;
+
+	}
+	
+#carousel {
+	display:block;
+	position:absolute;
+	margin:auto;
+	width:100%;
+	height:200px;
+	background-image:url(img/carouselSfondo.png);
+	bottom:-0px;
+	}
+	
+#news {
+	min-height:220px;
+	display:none;
+	background-image:url(img/news.jpg);
+	position: relative;
+	margin:auto;
+	margin-top:0px;
+	width:1200px;
+	top:18px;
+	}
+#news p {
+	margin:0px;
+	padding:0px;
+  	color:#999900;
+  	font-size:40px;
+  	text-decoration:none; 
+  	text-transform:uppercase;
+  	text-align:center;
+  	position:center;
+	}
+	
+#slider {
+	width:100%;
+	min-height:750px;
+	position:relative;
+	margin-top:-155px;
+	background:blue;
+	}
+#sliderpagina {
+	background:white;
+	margin-left:225px;
+	width:750px;
+	font-family:Inconsolata;
+	font-size:110%;
+	min-height:800px;
+	position:center;
+	text-align:left;
+	margin-bottom:20px;
+	}
+#testo {
+	right:-200px;
+	display:inline;
+	position:relative;
+	}
+#informations {
+	width:1200px;
+	min-height:200px;
+	position:relative;
+	background:white;
+	margin:auto;
+	margin-bottom:20px;
+	
+	}
+#slides {
+	width:80%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;	
+	}
+	
+#slides a img {
+	width:100%;
+	height:auto;
+	}
+	
+	
+#footer {
+	width:100%;
+	min-height:100px;
+	position:relative;
+	background:#6699CC;
+	position:bottom;
+	margin-bottom:-90px;
+	}
+#footer a {
+	color:black;
+	padding-left:20px;
+	}
+	
+#footer  img {
+		width:150px;
+		float:right;
+		display:inline-block;
+		position:relative;
+		padding:40px;
+		padding-bottom:0px;
+		padding-top:0px;
+		top:-10px;
+		margin-bottom:-30px;
+
+		}
+#loghi {
+		float:right;
+		}
+
+#end	{
+		height:30px;
+		background-color:#6699CC;
+		margin-top:-16px;
+		width:1200px;
+		margin:auto;
+		}
+		
+#griglia li  p {
+  	padding: 5px 5px 0 5px;
+  	margin: 0;
+  	font-size: 15px;
+  	text-align:center;
+  	color: #fff;
+
+	}
+
+#griglia  li {
+  border: 3px solid #333333;  background: #333333;
+  display: inline-block;
+  width:  140px;
+  margin: 18px;
+  border-bottom: 5px solid #333333;  background: #333333;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+#griglia  li img {
+		width:100%;
+		height:auto;
+		}
+		
+#griglia li.active, #griglia li:hover {
+				filter: brightness(80%); -webkit-filter: brightness(130%);
+				}
+div#container
+{
+	position: center; 
+	width: 1200px;
+	min-height:775px;
+	margin: 0 auto;
+	background:white;
+	text-align: left
+}
+#nav ul {
+    position:relative;
+    margin:0;
+    padding:0;
+    bottom:20px;
+    width:100%;
+    list-style:none;
+    text-transform:uppercase;
+    font-family:oswald;
+    font-size:100%;
+    display:inline-block;
+}
+#nav ul li{float:left}
+#nav ul li a{color:#322a2b;padding:15px 30px;text-decoration:none;}
+#nav ul li a.active, #nav ul li a:hover{
+	color:white;
+	}
+#icona {
+			float:right;
+            bottom:-12px;
+            left:-250px;
+			position:relative;
+			display:block; 
+			width:20px; 
+			height: 37px; 
+			z-index:12;
+	        background:url(img/Facebook.png);
+
+}
+#searchbox {
+					display:block;
+					width:600px;
+					margin:auto;
+					margin-top:0px;
+					position:relative;
+					padding-top:40px;
+					z-index:20;
+					}
+#rubriche		{
+				background-image:url(img/rubriche.png);
+				display:none;
+				height:33px;
+				width:200px;
+ 				margin: auto;
+
+				}
+				
+#rubriche2		{
+				background-image:url(img/thrilleritaliani.png);
+				display:block;
+				height:51px;
+				width:699px;
+				margin:auto;
+
+				}
+			
+
+#rubrica {
+		width:1200px;
+		position:relative;
+		margin:auto;
+		}
+		
+		
+#jssor_1 { position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1200px; height: 200px; overflow: hidden; visibility: hidden; }
+
+#sliderFrame {
+		width:100%;
+		height:auto;
+		}
+#buyonline {
+    background-color: #6699CC;
+    padding:5px;
+	margin:40px auto;
+	display:block;
+}
+
+#buyonline img{
+	border:1px solid #fff;
+	float:left;
+	margin-right:20px;
+}
+
+#buyonline p{
+	color:black;
+	font-weight:600;
+	font-size:20px;
+	font-family: "Open Sans",sans-serif;
+	line-height:42px;
+}
+
+#buyonline a{
+	color:black;
+	text-decoration:none;
+}
+	
+		
+
+		
+
+
+
+
+
+	
+
