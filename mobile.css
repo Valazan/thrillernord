@@ -359,6 +359,10 @@ div#container
 	color:black;
 	text-decoration:none;
 }
+
+#bannerDesktop {
+	display:none;
+	}
 /* Navigazione Blogger */
 .navigation a, .navigation span, .navigation a {
 text-decoration: none;
