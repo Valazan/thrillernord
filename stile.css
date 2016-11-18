@@ -191,6 +191,36 @@ body {
 #griglia li.active, #griglia li:hover {
 				filter: brightness(80%); -webkit-filter: brightness(130%);
 				}
+				
+#griglia1 li  p {
+  	padding: 5px 5px 0 5px;
+  	margin: 0;
+  	font-size: 15px;
+  	text-align:center;
+  	color: #fff;
+
+	}
+
+#griglia1  li {
+  border: 3px solid #333333;  background: #333333;
+  display: inline-block;
+  width:  112px;
+  margin: 18px;
+  border-bottom: 5px solid #333333;  background: #333333;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+#griglia1  li img {
+		width:100%;
+		height:auto;
+		}
+		
+#griglia1 li.active, #griglia li:hover {
+				filter: brightness(80%); -webkit-filter: brightness(130%);
+				}
+				
 div#container
 {
 	position: center; 
