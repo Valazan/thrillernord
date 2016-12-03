@@ -56,7 +56,7 @@ body {
     list-style:none;
     text-transform:uppercase;
     font-family:oswald;
-    font-size:90%;
+    font-size:150%;
     display:block;
 }
 
@@ -116,7 +116,7 @@ body {
 #sliderpagina {
     background:white;
 	font-family:EB Garamond;
-	font-size:130%;
+	font-size:200%;
 	min-height:300px;
 	position:center;
 	padding:6%;
@@ -126,7 +126,7 @@ body {
 	#sliderpagina {
     background:white;
 	font-family:EB Garamond;
-	font-size:120%;
+	font-size:190%;
 	min-height:300px;
 	position:center;
 	padding:6%;
@@ -182,6 +182,7 @@ body {
 	color:black;
 	text-align:center;
 	display:block;
+    font-size: 150%;
 	}
 #footer  img {
 		width:150px;

@@ -1,0 +1,32 @@
+#navigator {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    margin: 0px;
+
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */ 
+ .jumbotron {
+  margin-bottom: 0;
+  height: 100vh;
+  background-image: url(../img/test.jpg); 
+  background-size:   100% 100%;
+  background-position: center center;              /* optional, center the image */
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+#news {
+    height: 95vh;
+}
