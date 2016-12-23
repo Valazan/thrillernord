@@ -284,6 +284,23 @@ Le ombre tornano a invadere Roma. Sono passati cinque secoli dalla misteriosa bo
     .navbar {
       overflow: hidden
     }
+    .rwd-video {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 50.25%;
+	padding-top: 30px;
+	position: relative;
+}
+.rwd-video iframe,
+.rwd-video object,
+.rwd-video embed {
+	height:100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
   </style>
   <!-- End SlidesJS Optional-->
    
@@ -461,7 +478,11 @@ Cosa dirvi ancora? Ho appena concluso la lettura e sono già in astinenza.<br>
 <br>
 <b>Leggetelo, leggetelo, leggetelo!</b><br>
 <br>
-<center><a href= "https://www.youtube.com/watch?v=rrqFcypoIDc"><img style="width:12%; height: auto;" alt="" src="img/book.jpg"><br><br> Booktrailer "IL MAESTRO DELLE OMBRE"</a></center>
+<div class="rwd-video">
+	<iframe src="https://www.youtube.com/embed/rrqFcypoIDc" frameborder="0" allowfullscreen="" frameborder="0" height="315" width="560">
+	</iframe>
+</div>  
+<br>
 <br>
 <br>
 <img src="img/donatocarrisi.jpg" style="width: 16%; height: auto;"float: left alt="" />    L'AUTORE -  Si è laureato in giurisprudenza con una tesi su Luigi Chiatti, conosciuto come «il mostro di Foligno», per poi seguire i corsi di specializzazione in criminologia e scienza del comportamento.<br>
